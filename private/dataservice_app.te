@@ -32,7 +32,6 @@ net_domain(dataservice_app)
 
 add_service(dataservice_app, cne_service)
 add_service(dataservice_app, uce_service)
-add_service(dataservice_app, dpmservice)
 
 allow dataservice_app {
     app_api_service
